@@ -1,0 +1,14 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "setup": "npm i --prefix real-time-chat",
+    "predev": "npm run setup",
+    "dev": "npm run dev --prefix real-time-chat",
+    "prebuild": "npm run setup",
+    "build": "npm run build --prefix real-time-chat",
+    "preview": "npm run preview --prefix real-time-chat"
+  }
+}
+
